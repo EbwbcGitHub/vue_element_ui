@@ -4,6 +4,8 @@
       <li class="item" @click="handleClick">
         跳转路径至'/'
       </li>
+      <i class="fas fa-volume-up" style="color: red; font-size: 89px"></i>
+      <i class="fab fa-btc"></i>
     </ul>
     <div class="aside">
       <el-menu :default-active="$route.path"
